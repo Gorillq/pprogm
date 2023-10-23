@@ -5,8 +5,8 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "");
     string student = "Kamil Kownacki";
-    string number = "s30272";
+    string number = "30272";
     string uczelnia = "PJATK wydział zamiejscowy w Gdańsku";
-    cout << student << endl << "s30272" << endl << uczelnia;
+    cout << student << endl << number << endl << uczelnia;
     return 0;
 }
