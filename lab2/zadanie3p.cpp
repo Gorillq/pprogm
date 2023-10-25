@@ -98,7 +98,8 @@ int main() {
 		break;
 	default:
 		cout << "Operacja niedozwolona, wartosc spoza zakresu" << endl;
-		return 1;
+		//taki joke bo 0 i 1 nie pasowalo
+		return 42;
 	}
 	return 0;
 }
